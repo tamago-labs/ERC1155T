@@ -19,10 +19,10 @@ const Jumbotron = () => {
                 >
                     <Box style={{ display: "flex", maxWidth: "400px", flexDirection: "column" }} width={[1, 1 / 2]}>
                         <h2 style={{ padding: "0px", margin: "0px" }}>
-                            Low-Cost ERC1155 for Mass Airdrop
+                            Low-Cost ERC1155 for Mass Adoption
                         </h2>
                         <p>
-                            A smarter token for the future of crypto collectibles — an ERC721-compatible token that supports   and reduces gas cost by up to 1000x.
+                            A smarter token for the future of crypto game items, tickets for mass-adoption — an ERC1155 token that supports and reduces gas cost by up to 1000x.
                         </p>
                         <div style={{marginTop : "5px"}}>
                             <Button>

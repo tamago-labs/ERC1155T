@@ -6,6 +6,7 @@ import { Button } from "./components/button"
 import Header from "./components/header"
 import Jumbotron from "./components/jumbotron";
 import MainPanel from "./components/main";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Header/>
      <Jumbotron/>
      <MainPanel/>
+     <Footer/>
     </>
   );
 }

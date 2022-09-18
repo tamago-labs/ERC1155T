@@ -56,30 +56,45 @@ const MainPanel = () => {
     }, [deploy, name])
 
     return (
-        <Container>
+        <Container >
+
+
+            <div style={{ padding: "10px", textAlign: "center", paddingBottom: "0px" }}>
+                <h2>What is ERC1155T?</h2>
+                <p style={{ maxWidth: "600px", marginLeft: "auto", marginRight: "auto", lineHeight: "28px" }}>
+                    ERC1155T is an experiment NFT standard utilized Merkle Tree to verify off-chain user balances on IPFS aim to reduce the gas cost during the mass airdrop / creation of game items to million users.
+                </p>
+            </div>
+
             <Flex
                 p={2}
+                pt={0}
             >
                 <Box style={{ width: "100%" }} pt={4}>
                     <Tabs>
                         <TabList>
                             <Tab>
-                            All Token ID
+                                All Token ID
                             </Tab>
-                            
+
                         </TabList>
                         <TabPanel>
                             <TabBody>
-                                <TokenList/>
+                                <TokenList />
                             </TabBody>
                         </TabPanel>
-                         
+
                     </Tabs>
 
 
 
                 </Box>
             </Flex>
+
+            <div style={{ textAlign: "center", color: "grey", maxWidth: "600px", marginLeft: "auto", marginRight: "auto", lineHeight: "28px" , height: "100px"  }}>
+                Above is the example NFT deployed on Avalanche Fuji Testnet, anyone can create a new token and mint them to the thousand users.
+            </div>
+ 
         </Container>
     )
 }

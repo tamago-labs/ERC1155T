@@ -19,8 +19,6 @@ const useFactory = () => {
 
         let contractAddress
 
-        console.log("chainId --> ", chainId, FACTORY)
-
         if (
             FACTORY.filter((item) => item.chainId === chainId)
                 .length === 0

@@ -171,9 +171,8 @@ const TokenItem = ({ uri, tokenId }) => {
     const lines = wallets ? splitLines(wallets).length : 0
 
     const balance = useMemo(() => {
-        console.log("balanceSheet --> ", balanceSheet, account)
         if (account && balanceSheet && balanceSheet.length > 0) {
-            return balanceSheet.find(item => item[0] === account)[1]
+            return balanceSheet.find(item => item[0] === account) ? balanceSheet.find(item => item[0] === account)[1] : 0
         }
         return 0
     }, [account, balanceSheet])
