@@ -2,8 +2,7 @@
 const { expect } = require("chai")
 const { ethers } = require("hardhat")
 const { MerkleTree } = require('merkletreejs')
-const keccak256 = require("keccak256")
-const Hash = require('pure-ipfs-only-hash')
+const keccak256 = require("keccak256") 
 
 const { randomSigners, generateLeaves, generateMerkleTree } = require("./Helpers")
 

@@ -93,7 +93,7 @@ module.exports = {
     },
   },
   etherscan: {
-    apiKey: process.env.BSC_API_KEY,
+    apiKey: process.env.AVA_API_KEY,
     customChains: [
       {
         network: "cronos",
