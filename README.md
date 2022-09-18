@@ -8,4 +8,4 @@
 
 Contract Name | Contract Address 
 --- | ---  
-Factory | 0x9e3Ada39d457386221424785Cf7Ad79Ad34c33c2
+NFT | 0xA4d31FAD3D2b0b2777F639e6FBe125368Fd4d845
