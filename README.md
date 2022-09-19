@@ -58,6 +58,12 @@ Contract Name | Contract Address
 --- | ---  
 NFT | 0x216ecf2825a654849D4076f7A616B9Caaf0C6E04
 
+## Next Steps
+
+- The current version designed to use one proof to validate increment/decrement values of each user which means too many proofs will be generated and flooded the payload thus we unable to mint NFT to 1000+ users, so the advanced proof must be implemented.
+- Update client to handle a send operation.
+- Better reverse mechanism when someone attaches a broken / invalid balance sheet's IPFS hash.
+
 
 ## License
 
